@@ -1,0 +1,13 @@
+
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="Badge/CheckedOut" transform="translate(1.000000, 1.000000)" fill="#AFEDC6" stroke="#6ABD88">
+            <g id="Badge/Workflow">
+                <path d="M5,5 C3.61928813,5 2.5,3.88071187 2.5,2.5 C2.5,1.11928813 3.61928813,0 5,0 C6.38071187,0 7.5,1.11928813 7.5,2.5 C7.5,3.88071187 6.38071187,5 5,5 Z M2,6.66666667 L8,6.66666667 C9.1045695,6.66666667 10,7.56209717 10,8.66666667 L10,10 L0,10 L0,8.66666667 C-1.3527075e-16,7.56209717 0.8954305,6.66666667 2,6.66666667 Z" id="Badge/CheckedOut"></path>
+            </g>
+        </g>
+    </g>
+</svg>

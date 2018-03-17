@@ -1,0 +1,677 @@
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+a, a:hover, a:focus {
+	text-decoration: none;
+	color: #16a085;
+}
+img {
+	max-width: 100%;
+}
+html,
+body {
+  	min-height: 100%;
+}
+body {
+	position: relative;
+}
+.strong {
+	font-weight: bold;
+}
+.hide{
+	display:none;
+}
+
+ /*
+  * See https://github.com/angular/angular.io/blob/master/public/docs/_examples/styles.css
+  * for the full set of master styles used by the documentation samples
+  */
+
+.page-container {
+	padding: 0 .6em;
+}
+  
+  /* Header */
+#header {
+	background: #e40046;
+	padding: .7em 0 0;
+	margin-bottom: 0;
+	border-radius: inherit;
+	border-width: 0 0 1px;
+}
+.top-header {
+	overflow: hidden;
+}
+.contact-no {
+	margin-right: .7em;
+}
+.contact-no>span {
+	vertical-align: middle;
+}
+.contact-no a {
+	color: #fff;
+}
+.navbar>.container-fluid .navbar-brand {
+	margin-left: 0;
+}
+  /* Nav */
+.top-nav {
+	background: #c7003d;
+	margin-top: .7em;
+}
+.navbar-brand {
+	padding: 0;
+	line-height: normal;
+}
+.navbar-nav>li:after {
+	background: #eee;
+	width: 1px;
+	position: absolute;
+	content: "";
+	height: 15px;
+	right: 0;
+	top: 12px;
+}
+.navbar-nav>li:last-child:after {
+	width: 0;
+}
+.navbar-nav>li>a {
+	color: #eee;
+	transition: linear .2s;
+	padding-top: .6em;
+	padding-bottom: .6em;
+	text-transform: uppercase;
+}
+.navbar-nav>li>a:hover,
+.nav>li>a:focus {
+	text-decoration: underline;
+	color: #fff;
+	background-color: #c7003d;
+}
+.navbar-right {
+	margin-right: 0;
+}
+.welcome-box {
+	background: #f3f3f3;
+	padding: 1.5em 0;
+	margin-bottom: 1.6em;
+}
+.welcome-title {
+	margin: 0 0 .6em;
+	color: #404040;
+}
+  
+  /* Footer */
+  #footer {
+	background: #c7c7c7;
+	padding: 1.2em 0;
+	color: #fff;
+	border-top: 1px solid #cecece;
+}
+.footer-menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.footer-menu>a {
+	display: inline-block;
+	line-height: 1.2em;
+	color: #000;
+	margin: 0 .3em;
+}
+.footer-menu>a:first-child {
+	margin-left: 0;
+}
+.footer-menu>a:hover,
+.footer-menu>a.active {
+	color: #EBEDED;
+}
+.social-block {}
+.copy-text {
+	margin: 1.6em 0 0;
+}
+.social-icon>a {
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	margin: 0 3px;
+}
+.social-icon>a>img {
+	width: 100%;
+	opacity: .3;
+	transition: linear .2s;
+}
+.social-icon>a:hover>img{
+	opacity: 1;
+}
+
+/* Carousel */
+#carousel-example-generic {
+	height: 33em;
+	overflow: hidden;
+}
+.carousel {
+}
+.carousel img {
+	width: 100%;
+}
+.carousel-control.right,
+.carousel-control.left,
+.hotel-banner-box .carousel-indicators {
+	background: none;
+	display: none;
+}
+.hotel-banner-box .carousel-control.right,
+.hotel-banner-box .carousel-control.left {
+	background: none;
+}
+.hotel-banner-box .carousel-control {
+	bottom: inherit;
+	top: 45%;
+}
+.sections {
+	margin-bottom: 1.3em;
+}
+.sections:last-child {
+	border: none;
+}
+.content-title {
+	margin: 0 0 .6em;
+	color: #c7003d;
+}
+.pos-rel {
+	position: relative;
+}
+.overlay {
+	background: rgba(0, 0, 0, .5);
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.offer-col img,
+.offer-banner img,
+.details-box img,
+.list img {
+	max-width: 100%;
+}
+.offer-col .offer-link {
+	display: block;
+	position: relative;
+	z-index: 1;
+}
+
+.offer-col .box-caption {
+	position: absolute;
+	left: .6em;
+	right: .6em;
+	bottom: 0;
+	padding: 1.3em;
+}
+.offer-col .box-caption>h2 {	
+	color: #fff;
+	font-size: 1.3em;
+	margin: 0;
+}
+.explore-sec .offer-col {
+}
+.offer-banner {
+	position: relative;
+	height: 23.1em;
+	overflow: hidden;
+}
+.deals-text {
+	position: absolute;
+	left: 0;
+	right: 0;
+	text-align: center;
+	display: block;
+	top: 5.2em;
+	color: #fff;
+	font-size: 2.1em;
+	text-shadow: 0 3px 3px #000;
+}
+.title-small {
+	font-size: 1.3em;
+	margin: 0 0 .6em;
+}
+.details-box p {
+	margin: 0;
+}
+.details-desc {
+	position: absolute;
+	background: rgba(0, 0, 0, .5);
+	left: .8em;
+	right: .8em;
+	bottom: 0;
+	padding: .8em;
+}
+.city-info,
+.list {
+	margin-bottom: 1.3em;
+}
+.list-title {
+}
+.details-desc .list-title {
+	color: #fff;
+}
+.btn {
+	border-radius: 2px;
+}
+.price-box {
+	position: absolute;
+	left: 0;
+	top: 1em;
+	padding: 5px 10px;
+	color: #fff;
+	font-size: 1.3em;
+	background: rgba(0, 0, 0, .5);
+}
+.price-box:before {
+	border-top: 10px solid rgba(0, 0, 0, .7);
+	content: "";
+	display: block;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid transparent;
+	position: absolute;
+	left: 0;
+	bottom: -20px;
+}
+.check-inout-maincontainer:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+.check-inout-maincontainer img {
+	max-width: 100%;
+}
+.hotel-banner-box {
+	margin-bottom: 1.3em;
+	height: 27.5em;
+	overflow: hidden;
+}
+.checkin-box label {
+	display: block;
+}
+.checkin-row {
+	margin-bottom: 1em;
+}
+.checkin-row input[type=text] {
+	padding: .6em;
+	border-radius: 2px;
+	border: 1px solid #dfdddd;
+}
+.amenities-box {
+	margin-bottom: 1.3em;
+	overflow: hidden;
+}
+.amenities-list {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: .6em;
+	padding-bottom: .6em;
+}
+.amenities-box h3 {
+	margin-top: 0;
+}
+.hotel-amenities-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+.hotel-amenities-list>li {
+	margin: 0 .7em .6em;
+	font-size: 1em;
+	position: relative;
+	float: left;
+	width: 13em;
+	padding-left: 2em;
+}
+.hotel-amenities-list>li span {
+	position: absolute;
+	left: 0;
+	top: 2px;
+}
+.hotel-amenities-list>li.amenities-not-available {
+	color: #e3e3e3;
+}
+.journey-distance-info {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.journey-distance-info>li {
+	overflow: hidden;
+	margin-bottom: .7em;
+	font-size: 1em;
+	padding-left: .7em;
+}
+.journey-distance-info>li:last-child,
+.journey-distance-info>li>label {
+	margin-bottom: 0;
+}
+.journey-distance-info>li>label {
+	float: left;
+	width: 18em;
+	font-weight: normal;
+}
+.journey-distance-info>li>span {
+	width: 4em;
+	float: left;
+}
+.journey-distance-info>li em {
+	font-style: normal;
+}
+.nearest-box {
+	background: #ddd;
+	padding: 1.3em;
+}
+.nearest-box h3 {
+	margin-top: 0;
+}
+.button {
+	display: inline-block;
+	padding: .6em 2em;
+	background: #16A085;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-size: 1em;
+	color: #FFF;
+}
+.button:hover {
+	color: #fff;
+}
+.soria .dijitButtonNode,
+.soria .dijitButtonHover .dijitButtonNode,
+.soria .dijitButtonActive .dijitButtonNode {
+	background: none;
+	border: none;
+	color: #fff;
+	outline: none;
+}
+.offer-col {
+	overflow: hidden;
+}
+.bottom-container {
+	background: #f3f3f3;
+	padding: 1.3em 0 1.6em;
+	border-bottom: 1px solid #8B8C8C;
+}
+
+/* Contact-Us */
+.contact-form {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.contact-form>li {
+	margin-bottom: 1em;
+	position: relative
+}
+.contact-form>li:last-child {
+	margin: 0;
+}
+.contact-form>li>label {
+	display: block;
+	margin-bottom: 8px;
+	color: #3b3b3b;
+	font-size: 1em;
+	font-weight: normal;
+}
+.contact-form>li .dijitTextBox {
+	background: none;
+	border: none;
+	width: 100%;
+}
+.contact-form>li textarea,
+.soria .dijitTextBox,
+.textfield-box,
+.soria .dijitSelect {
+	width: 100%;
+	box-shadow: inset 0 2px 2px #ededed;
+	border: 1px solid #d8dce0 !important;
+	color: #3b3b3b;
+	font-size: 1em;
+	background: #fff;
+}
+.soria .dijitSelect .dijitArrowButton,
+.soria .dijitSelect .dijitButtonContents {
+	background: none;
+}
+.soria .dijitSelect .dijitArrowButton {
+	padding: 0 .8em;
+}
+.soria .dijitSelect .dijitButtonContents,
+.soria .dijitSelectHover,
+.soria .dijitSelectHover TD {
+	border-color: #d8dce0 !important;
+}
+.contact-form>li input[type=text],
+.contact-form>li textarea {
+	padding: .6em !important;
+}
+.contact-form>li input.dijitArrowButtonInner {
+	padding: 0.6em 0 !important;
+}
+.textfield-box {
+	height: 2.1em;
+	line-height: 2.1em;
+	padding: 0 .6em;
+}
+.form-row {
+	margin-bottom: 1.3em;
+}
+
+/* Calender Customize */
+.dijitCalendarPopup {
+	box-shadow: 1px 1px 4px #353535;
+}
+.soria .dijitTextBox .dijitButtonNode {
+	border-left: 1px solid #d8dce0;
+	background: #fff;
+	box-shadow: inset 0 2px 2px #ededed;
+}
+.checkin-row input[type=text] {
+	border: none;
+}
+.checkin-row .dijitSelect .dijitSelectLabel,
+.contact-form > li .dijitSelect .dijitSelectLabel {
+	padding-left: .6em;
+}
+.soria .checkin-date-col .dijitArrowButtonInner {
+	background-image: url("../images/calendar.svg");
+	background-size: 100%;
+	width: 1.6em;
+	margin: 0 3px;
+}
+.dijitCalendarContainer table {
+	width: 100%;
+}
+.soria .dijitCalendarMonthContainer {
+	background: #16a085;
+}
+.soria .dijitCalendarMonthLabel {
+	color: #fff;
+}
+.soria .dijitCalendarDayLabelTemplate {
+	background: #49b39e;
+	color: #fff;
+}
+.soria .dijitCalendarSelectedYear {
+	background-color: #4cb6a1;
+	color: #fff;
+	border: none;
+}
+.soria .dijitCalendarNextYear, .soria .dijitCalendarPreviousYear {
+	color: #fff !important;
+	font-size: .7em;
+}
+.soria .dijitCalendarSelectedDate {
+	background: #6fccba !important;
+	border: none;
+}
+.soria .dijitCalendarCurrentDate {
+	text-decoration: none;
+	background: #84d4c4;
+}
+.soria .dijitCalendarYearContainer {
+	display: none;
+}
+.soria .dijitCalendarDateTemplate {
+	padding: 6px;
+}
+.soria .dijitCalendarDateTemplate:focus {
+	border: none;
+	outline: none;
+}
+.dijitInputInner {
+	padding: .6em !important;
+}
+
+/* Dojo Dialog Customize */
+.dijitDialogUnderlayWrapper {
+	z-index: 9999 !important;
+}
+.soria .dijitDialog {
+	z-index: 99999 !important;
+	width: 60em;
+}
+.soria .dijitDialogTitleBar {
+	background: #84d4c4;
+}
+
+.contact-form>li textarea {
+	height: 6.6em !important;
+}
+.contact-form>li .dijitButtonNode {
+	background: none;
+	border: none;
+}
+.contact-form>li.ast:before {
+	color: #ff0000;
+	content: "";
+	font-weight: bold;
+	position: absolute;
+	right: .6em;
+	top: 3.1em;
+	background: url(../images/ast_icon.png) 0 0 no-repeat;
+	height: .2em;
+	width: .2em;
+}
+.aboutus-list,
+.blog-box {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.aboutus-list li {
+	padding: 1.3em;
+	font-size: 1em;
+	line-height: 1.6em;
+	overflow: hidden;
+}
+.aboutus-list li:nth-child(even) {
+	background: #F2F4F5;
+}
+.aboutus-list li .mng-photo {
+	background: #2d2d2d;
+	height: 16.7em;
+	width: 16.7em;
+	border-radius: 100%;
+	margin-bottom: .6em;
+}
+.aboutus-list li .about-photo p {
+	margin: 0;
+}
+.hotels-container {
+	background: #f3f3f3;
+	padding: 1.3em 1.3em 0;
+}
+.sorting-box {
+	background: #fff;
+	padding: .6em;
+	margin-bottom: 1.3em;
+	text-align: right;
+}
+.sorting-box label {
+	margin: 0 0 0 1em;
+	display: inline-block;
+	font-weight: normal;
+}
+.sorting-box label span {
+	font-size: .9em;
+	color: #16a085;
+}
+#container-aboutus,
+#container-contactus,
+#cities-container,
+#container-hotels,
+#container-checkin,
+#container-cab {
+	margin: 1.3em 0;
+}
+.blog-box {
+	background: #fff;
+	max-height: 12.9em;
+	overflow-y: auto;
+	padding:1em;
+}
+.blog-box li {
+	padding: 1em 0;
+	border-bottom: 1px solid #F2F4F5;
+	font-size: .9em;
+}
+.blog-box li:first-child {
+	padding-top: 0;
+}
+.blog-box li:last-child {
+	padding-bottom: 0;
+	border: none;
+}
+.blog-box li p {
+	margin: 0;
+}
+.google-map {
+	border: 1px solid #ddd;
+	padding: 1px;
+	margin-top: 1.5em;
+}
+.google-map iframe {
+	width: 100%;
+}
+.book-cond-txt {
+	margin: 0 0 1.2em;
+	padding: 0;
+	list-style: none;
+}
+.book-cond-txt li {
+	margin-bottom: .8em;
+	position: relative;
+	padding-left: 1.8em;
+}
+.book-cond-txt li span {
+	color: #16A085;
+	position: absolute;
+	left: 0;
+	top: 2px;
+}
+
+/* For responsive BUTTON */
+.navbar-toggle {
+	margin-top: 1.2em;
+	background: #84d4c4;
+}
+.bs-docs-nav .navbar-toggle .icon-bar {
+	background-color: #16a085;
+}
+
+.cabTitle{
+	color: #369;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 250%;
+	margin-left: 10px;
+}

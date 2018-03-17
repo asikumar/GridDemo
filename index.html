@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>EDMS Project</title>
+
+</head>
+<script>
+    var dojoConfig={
+        parseOnLoad:false,
+        isDebug:true,
+        async:true,
+        baseUrl:'/EDMSProject/',
+        packages:[
+            {
+                name:'dojo',
+                location:'node_modules/dojo'
+            },
+            {
+                name:'dijit',
+                location:'node_modules/dijit'
+            },{
+                name:'dojox',
+                location:'node_modules/dojox'
+            },
+            {
+                name:'src',
+                location:'./src'
+            },
+            {
+                name:'json',
+                location:'./json'
+            },
+            {
+                name:'lib',
+                location:'./lib'
+            },
+            {
+                name: 'images',
+                location: './images'
+
+            }]
+    }
+</script>
+<script src="node_modules/dojo/dojo.js"></script>
+<script src="lib/js/jquery-2.2.4.js"></script>
+<script src="lib/js/custom.js"></script>
+<script src="lib/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="node_modules/dijit/themes/soria/soria.css">
+<link rel="stylesheet" href="lib/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/EDMSBrowsePlugin.css">
+<link rel="stylesheet" href="node_modules/dojox/grid/enhanced/resources/claro/EnhancedGrid.css">
+<link rel="stylesheet" href="node_modules/dojox/grid/enhanced/resources/DnD.css">
+<link rel="stylesheet" href="lib/css/bootstrap-theme.min.css">
+<!--<link rel="stylesheet" href="css/styles.css">-->
+
+<body class="soria" >
+<div data-dojo-type="src/eDMSGrid"></div>
+
+</body>
+<script>
+    require(['dojo/parser','dojo/domReady!'], function (parser) {
+        parser.parse();
+
+    });
+</script>
+</html>

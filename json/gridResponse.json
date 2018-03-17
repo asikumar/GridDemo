@@ -1,0 +1,129 @@
+{
+  "status": "SUCCESS",
+  "message": "",
+  "error": [],
+  "gridMetaData": [
+
+    {
+      "id": "kind",
+      "name":"Kind",
+      "fieldName":"kind",
+      "minWidth":20,
+      "maxWidth":100,
+      "displaySequence":1,
+      "sortable":true,
+      "addHide": true,
+      "dataType": "String",
+      "formatter": "kindColumnFormatter"
+    },
+
+    {
+      "id": "title",
+      "name":"Title",
+      "fieldName":"title",
+      "minWidth":100,
+      "maxWidth":200,
+      "displaySequence":2,
+      "sortable":true,
+      "addHide": true,
+      "dataType": "String",
+      "formatter": "titleColumnFormatter"
+    },
+
+    {
+      "id": "lastmodified",
+      "name":"Last Modified",
+      "fieldName":"lastmodified" ,
+      "minWidth":100,
+      "maxWidth":200,
+      "displaySequence":3,
+      "sortable":true,
+      "addHide": true,
+      "dataType": "String",
+      "formatter": "lastmodifiedColumnFormatter"
+    },
+
+    {
+      "id": "metadatalastmodified",
+      "name":"Metedata Last Modified",
+      "fieldName":"metadatalastmodified" ,
+      "minWidth":100,
+      "maxWidth":200,
+      "displaySequence":1,
+      "sortable":true,
+      "addHide": true,
+      "dataType": "String",
+      "formatter": "lastmodifiedColumnFormatter"
+    },
+
+    {
+      "id": "checkedout",
+      "name":"Checked Out by",
+      "fieldName":"checkedout",
+      "minWidth":100,
+      "maxWidth":200,
+      "displaySequence":4,
+      "sortable":true,
+      "addHide": true,
+      "dataType": "String",
+      "formatter": "checkedoutColumnFormatter"
+    }
+  ],
+  "data": {
+    "noOfRecords:": 100,
+    "currentRecords":"10",
+    "records":[{
+      "kind": "Document(logo)",
+      "title": "Hiring Plans",
+      "lastmodified": "04-14-2016 04:30 PM",
+      "metadatalastmodified": "03-8-2018 02:30PM",
+      "checkedout" : "John",
+      "version": 1,
+      "owner": "Justin",
+      "iconClass": "icon-png",
+      "documentId":"{906A9161-0000-xxx}",
+      "versionDocumentId": "{906A9161-0000-xxxx}",
+      "mimeType": "application/pdf"
+    },
+      {
+        "kind": "Folder(logo)",
+        "title": "All Employees",
+        "lastmodified": "02-14-2017 04:30 PM",
+        "metadatalastmodified": "06-4-2018 02:30PM",
+        "checkedout": "Peter",
+        "version": 1.7,
+        "owner": "Lee",
+        "iconClass": "icon-png",
+        "documentId":"{906A9161-0000-C216-B639-xx}",
+        "versionDocumentId": "{906A9161-0000-C216-B639-04xxx}",
+        "mimeType": "application/pdf"
+      },
+      {
+        "kind": "Document(logo)",
+        "title": "John Doe Record",
+        "lastmodified": "07-14-2014 09:30 PM",
+        "metadatalastmodified": "06-8-2018 2:30 PM",
+        "checkedout": "Sandra",
+        "version": 1,
+        "owner": "Justin",
+        "iconClass": "icon-png",
+        "documentId":"{906A9161-0000-C216-B639-0445xx}",
+        "versionDocumentId": "{906A9161-0000-C216-B639-0445F3xxxx}",
+        "mimeType": "application/pdf"
+      },
+      {
+        "kind": "Document(logo)",
+        "title": "Finance Data",
+        "lastmodified": "07-14-2014 09:30 PM",
+        "metadatalastmodified": "06-8-2018 2:30 PM",
+        "checkedout": "Sara",
+        "version": 1,
+        "owner": "Justin",
+        "iconClass": "icon-png",
+        "documentId":"{906A9161-0000-C216-B639-0445F32xxx}",
+        "versionDocumentId": "{906A9161-0000-C216-B639-0445F3xxx}",
+        "mimeType": "application/pdf"
+      }]
+  }
+
+}

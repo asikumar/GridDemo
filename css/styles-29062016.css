@@ -1,0 +1,536 @@
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+a, a:hover, a:focus {
+	text-decoration: none;
+	color: #16a085;
+}
+body {
+  
+}
+.strong {
+	font-weight: bold;
+}
+.hide{
+	display:none;
+}
+
+ /*
+  * See https://github.com/angular/angular.io/blob/master/public/docs/_examples/styles.css
+  * for the full set of master styles used by the documentation samples
+  */
+  
+  .page-container {
+	padding: 0 10px;
+  }
+  
+  /* Header */
+#header {
+	background: rgba(22, 160, 133, .7);
+	padding: 10px 0;
+}
+.contact-no a {
+	color: #464444;
+}
+  /* Nav */
+  .top-nav {
+	margin-top: 30px;
+  }
+  .navbar-nav>li>a {
+	color: #fff;
+	transition: linear .2s;
+	padding-top: 10px;
+    padding-bottom: 10px;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.25);
+  }
+  .navbar-nav>li>a:hover, 
+  .nav>li>a:focus {
+	background: #1ABC9C;
+  }
+.navbar-right {
+	margin-right: 0;
+}
+  
+  .contact-no {
+	position: absolute;
+	right: 15px;
+	top: 8px;
+  }
+  .contact-no>span {
+	vertical-align: middle;
+  }
+
+  .welcome-box {
+	  background: #f3f3f3;
+	  padding: 20px 0;
+	  margin-bottom: 25px;
+  }
+.welcome-title {
+	margin: 0 0 10px;
+	color: #404040;
+}
+  
+  /* Footer */
+  #footer {
+	background: #16A085;
+	padding: 20px 0;
+	color: #fff;
+	border-top: 1px solid #16DBB5;
+}
+.footer-menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.footer-menu>a {
+	display: inline-block;
+	line-height: 18px;
+	color: #000;
+	margin: 0 6px;
+}
+.footer-menu>a:first-child {
+	margin-left: 0;
+}
+.footer-menu>a:hover,
+.footer-menu>a.active {
+	color: #EBEDED;
+}
+.social-block {}
+.copy-text {
+	margin: 24px 0 0;
+}
+.social-icon>a {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin: 0 3px;
+}
+.social-icon>a>img {
+	width: 100%;
+	opacity: .3;
+	transition: linear .2s;
+}
+.social-icon>a:hover>img{
+	opacity: 1;
+}
+
+/* Carousel */
+#carousel-example-generic {
+	max-height: 500px;
+	overflow: hidden;
+}
+.carousel {
+}
+.carousel img {
+	width: 100%;
+}
+.carousel-control.right, .carousel-control.left {
+	background: none;
+}
+.sections {
+	margin-bottom: 20px;
+}
+.sections:last-child {
+	border: none;
+}
+.content-title {
+	margin: 0 0 10px;
+	color: #404040;
+}
+.pos-rel {
+	position: relative;
+}
+.overlay {
+	background: rgba(0, 0, 0, .5);
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.offer-col img,
+.offer-banner img,
+.details-box img,
+.list img {
+	max-width: 100%;
+}
+.offer-col .offer-link {
+	display: block;
+	position: relative;
+	z-index: 1;
+}
+
+.offer-col .box-caption {
+	position: absolute;
+	left: 10px;
+	right: 10px;
+	bottom: 0;
+	padding: 20px;
+}
+.offer-col .box-caption>h2 {	
+	color: #fff;
+	font-size: 20px;
+	margin: 0;
+}
+.explore-sec .offer-col {
+}
+.offer-banner {
+	position: relative;
+	height: 240px;
+	overflow: hidden;
+}
+#cities-container {
+	margin-top: 110px;
+}
+.deals-text {
+	position: absolute;
+	left: 0;
+	right: 0;
+	text-align: center;
+	display: block;
+	top: 80px;
+	color: #fff;
+	font-size: 35px;
+	text-shadow: 0 3px 3px #000;
+}
+.title-small {
+	font-size: 18px;
+	margin: 0 0 10px;
+}
+.details-box p {
+	margin: 0;
+}
+.city-info {
+	margin-bottom: 20px;
+}
+.list {
+	margin-bottom: 20px;
+}
+.list-title {
+	overflow: hidden;
+    	text-overflow: ellipsis;
+    	white-space: nowrap;
+    	word-wrap: break-word;
+	margin: 5px 0 10px;
+}
+.btn {
+	border-radius: 2px;
+}
+.price-box {
+	position: absolute;
+	left: 0;
+	bottom: 50px;
+	padding: 5px 10px;
+	color: #fff;
+	font-size: 20px;
+	background: rgba(0, 0, 0, .5);
+}
+.price-box:before {
+	border-top: 10px solid rgba(0, 0, 0, .7);
+    	content: "";
+    	display: block;
+    	border-bottom: 10px solid transparent;
+    	border-left: 10px solid transparent;
+    	position: absolute;
+    	left: 0;
+    	bottom: -20px;
+}
+.check-inout-maincontainer:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+.check-inout-maincontainer img {
+	max-width: 100%;
+}
+.hotel-banner-box {
+	margin-bottom: 20px;
+}
+.checkin-box label {
+	display: block;
+}
+.checkin-row {
+	margin-bottom: 15px;
+}
+.checkin-row input[type=text] {
+	padding: 10px;
+	border-radius: 2px;
+	border: 1px solid #dfdddd;
+}
+.amenities-box {
+	margin-bottom: 20px;
+}
+.amenities-list {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+.amenities-box h3 {
+	margin-top: 0;
+}
+.hotel-amenities-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+.hotel-amenities-list>li {
+	margin: 0 10px 10px;
+	font-size: 16px;
+	position: relative;
+	float: left;
+	width: 198px;
+	padding-left: 30px;
+}
+.hotel-amenities-list>li span {
+	position: absolute;
+	left: 0;
+	top: 2px;
+}
+.hotel-amenities-list>li.amenities-not-available {
+	color: #e3e3e3;
+}
+.journey-distance-info {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.journey-distance-info>li {
+	overflow: hidden;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+.journey-distance-info>li label {
+	float: left;
+	width: 300px;
+	font-weight: normal;
+}
+.journey-distance-info>li span {
+	width: 74px;
+	float: left;
+}
+.nearest-box {
+	background: #ddd;
+	padding: 20px;
+}
+.nearest-box h3 {
+	margin-top: 0;
+}
+.button {
+	display: inline-block;
+	padding: 10px 30px;
+	background: #16A085;
+	line-height: 24px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-size: 15px;
+	color: #FFF;
+}
+.button:hover {
+	color: #fff;
+}
+.soria .dijitButtonNode,
+.soria .dijitButtonHover .dijitButtonNode {
+	background: none;
+	border: none;
+	color: #fff;
+}
+.offer-col {
+	overflow: hidden;
+}
+.bottom-container {
+	background: #f3f3f3;
+	padding: 20px 0 25px;
+	border-bottom: 1px solid #8B8C8C;
+}
+
+/* Contact-Us */
+.contact-form {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.contact-form>li {
+	margin-bottom: 15px;
+	position: relative
+}
+.contact-form>li:last-child {
+	margin: 0;
+}
+.contact-form>li>label {
+	display: block;
+	margin-bottom: 8px;
+	color: #3b3b3b;
+	font-size: 17px;
+	font-weight: normal;
+}
+.contact-form>li .dijitTextBox {
+	background: none;
+	border: none;
+	width: 100%;
+}
+.contact-form>li input[type=text],
+.contact-form>li textarea,
+.soria .dijitTextBox,
+.textfield-box {
+	width: 100%;
+	box-shadow: inset 0 2px 2px #ededed;
+	border: 1px solid #d8dce0 !important;
+	color: #3b3b3b;
+	font-size: 15px;
+	background: #fff;
+}
+.contact-form>li input[type=text],
+.contact-form>li textarea {
+	padding: 10px !important;
+}
+.textfield-box {
+	height: 35px;
+	line-height: 35px;
+	padding: 0 10px;
+}
+.form-row {
+	margin-bottom: 20px;
+}
+
+/* Calender Customize */
+.dijitCalendarPopup {
+	box-shadow: 1px 1px 4px #353535;
+}
+.soria .dijitTextBox .dijitButtonNode {
+	border-left: 1px solid #d8dce0;
+	background: #fff;
+	box-shadow: inset 0 2px 2px #ededed;
+}
+.checkin-row input[type=text] {
+	border: none;
+}
+.soria .checkin-date-col .dijitArrowButtonInner {
+	background-image: url("../images/calendar.svg");
+	background-size: 100%;
+	width: 25px;
+	margin: 0 3px;
+}
+.dijitCalendarContainer table {
+	width: 100%;
+}
+.soria .dijitCalendarMonthContainer {
+	background: #16a085;
+}
+.soria .dijitCalendarMonthLabel {
+	color: #fff;
+}
+.soria .dijitCalendarDayLabelTemplate {
+	background: #49b39e;
+	color: #fff;
+}
+.soria .dijitCalendarSelectedYear {
+	background-color: #4cb6a1;
+	color: #fff;
+	border: none;
+}
+.soria .dijitCalendarNextYear, .soria .dijitCalendarPreviousYear {
+	color: #fff !important;
+	font-size: 14px;
+}
+.soria .dijitCalendarSelectedDate {
+	background: #6fccba !important;
+	border: none;
+}
+.soria .dijitCalendarCurrentDate {
+	text-decoration: none;
+	background: #84d4c4;
+}
+.soria .dijitCalendarYearContainer {
+	display: none;
+}
+.soria .dijitCalendarDateTemplate {
+	padding: 6px;
+}
+.soria .dijitCalendarDateTemplate:focus {
+	border: none;
+	outline: none;
+}
+.dijitInputInner {
+	padding: 10px !important;
+}
+
+/* Dojo Dialog Customize */
+.dijitDialogUnderlayWrapper {
+	z-index: 9999 !important;
+}
+.soria .dijitDialog {
+	z-index: 99999 !important;
+	width: 900px;
+}
+.soria .dijitDialogTitleBar {
+	background: #84d4c4;
+}
+
+.contact-form>li textarea {
+	height: 100px !important;
+}
+.contact-form>li .dijitButtonNode {
+	background: none;
+	border: none;
+}
+.contact-form>li.ast:before {
+	color: #ff0000;
+	content: "";
+	font-weight: bold;
+	position: absolute;
+	right: 10px;
+	top: 48px;
+	background: url(../images/ast_icon.png) 0 0 no-repeat;
+	height: 9px;
+	width: 8px;
+}
+.aboutus-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.aboutus-list li {
+	padding: 20px;
+	font-size: 16px;
+	line-height: 25px;
+	overflow: hidden;
+}
+.aboutus-list li:nth-child(even) {
+	background: #F2F4F5;
+}
+.aboutus-list li .mng-photo {
+	background: #2d2d2d;
+	height: 250px;
+	width: 250px;
+	border-radius: 100%;
+	margin-bottom: 10px;
+}
+.aboutus-list li .about-photo p {
+	margin: 0;
+}
+.hotels-container {
+	background: #f3f3f3;
+	padding: 20px 20px 0;
+}
+.sorting-box {
+	background: #fff;
+	padding: 10px;
+	margin-bottom: 20px;
+	text-align: right;
+}
+.sorting-box label {
+	margin: 0 0 0 15px;
+	display: inline-block;
+	font-weight: normal;
+}
+
+#container-aboutus,
+#container-contactus,
+#cities-container,
+#container-hotels,
+#container-checkin {
+	margin: 110px 0 20px;
+}

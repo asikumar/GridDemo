@@ -1,0 +1,37 @@
+
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="1.86097082" y="0.930485408" width="4.65242704" height="4.65242704" rx="1"></rect>
+        <path d="M2.79145622,4.65242704 L5.58291245,4.65242704 L5.58291245,9.77009678 C5.58291245,10.5409361 4.95802369,11.1658249 4.18718434,11.1658249 L4.18718434,11.1658249 C3.41634498,11.1658249 2.79145622,10.5409361 2.79145622,9.77009678 L2.79145622,4.65242704 Z" id="path-2"></path>
+        <rect id="path-3" x="5.58291245" y="0" width="2.79145622" height="5.58291245" rx="1"></rect>
+        <rect id="path-4" x="0" y="0" width="2.79145622" height="5.58291245" rx="1"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rows/Default" transform="translate(-44.000000, -217.000000)">
+            <g id="Badge-option-03" transform="translate(15.000000, 0.000000)">
+                <g id="Badge/LegalHold" transform="translate(29.000000, 219.000000)">
+                    <g id="Group-17" transform="translate(4.852537, 5.825132) rotate(45.000000) translate(-4.852537, -5.825132) translate(0.352537, -0.174868)">
+                        <g id="Rectangle-7">
+                            <use fill="#FBC9B4" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <rect stroke="#ED885C" stroke-width="1" x="2.36097082" y="1.43048541" width="3.65242704" height="3.65242704" rx="1"></rect>
+                        </g>
+                        <g id="Rectangle-8">
+                            <use fill="#FBC9B4" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <path stroke="#ED885C" stroke-width="1" d="M3.29145622,5.15242704 L3.29145622,9.77009678 C3.29145622,10.2647938 3.69248736,10.6658249 4.18718434,10.6658249 C4.68188131,10.6658249 5.08291245,10.2647938 5.08291245,9.77009678 L5.08291245,5.15242704 L3.29145622,5.15242704 Z"></path>
+                        </g>
+                        <g id="Rectangle-7">
+                            <use fill="#FBC9B4" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <rect stroke="#ED885C" stroke-width="1" x="6.08291245" y="0.5" width="1.79145622" height="4.58291245" rx="0.895728112"></rect>
+                        </g>
+                        <g id="Rectangle-7">
+                            <use fill="#FBC9B4" fill-rule="evenodd" xlink:href="#path-4"></use>
+                            <rect stroke="#ED885C" stroke-width="1" x="0.5" y="0.5" width="1.79145622" height="4.58291245" rx="0.895728112"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

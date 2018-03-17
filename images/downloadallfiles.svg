@@ -1,0 +1,17 @@
+
+<svg width="14px" height="10px" viewBox="0 0 14 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Commands-Nothing-Selected" transform="translate(1.000000, -70.000000)" stroke="#0088CC">
+            <g id="Group-11">
+                <g id="Group-Copy" transform="translate(0.000000, 70.000000)">
+                    <path d="M0,5 L0,7.45714286 C1.3527075e-16,8.56171236 0.8954305,9.45714286 2,9.45714286 L10,9.45714286 C11.1045695,9.45714286 12,8.56171236 12,7.45714286 L12,5" id="Path-3"></path>
+                    <polyline id="Path-4" transform="translate(5.800000, 4.400000) scale(1, -1) translate(-5.800000, -4.400000) " points="3 5.79999995 5.79999995 3 8.5999999 5.79999995"></polyline>
+                    <polyline id="Path-4" transform="translate(5.800000, 1.400000) scale(1, -1) translate(-5.800000, -1.400000) " points="3 2.79999995 5.79999995 7.10542736e-15 8.5999999 2.79999995"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

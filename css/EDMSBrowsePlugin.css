@@ -1,0 +1,43 @@
+.style1 { 
+	height:500px;
+	width:900px;
+	margin-top:129px;
+	bordrt-top:none;
+}
+
+.oneui.ecm.icn .edmsGrid .dojoxGridHeader{
+	
+	border-top:0px !important;
+}
+.oneui.ecm.icn .edmsGrid .dojoxGridHeader, .oneui.ecm.icn .edmsGrid .dojoxGridSortNode{
+	
+	font-family: SFHello-Medium;
+    color: #999999;
+    font-size: 14px;
+}
+.oneui .edmsGrid .dojoxGridRowbar{
+	
+	/* display:none; */
+}
+.edmsGrid{
+	
+	margin-top:50px;
+}
+/* .field-kind{
+
+	width:100px;
+}
+.field-title{
+
+	width:200px;
+}
+.field-lastmodified{
+	
+	width:150px;
+}
+.field-metadatalastmodified{
+	width:150px;
+}
+.field-checkedout{
+	width:150px;
+} */

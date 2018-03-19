@@ -5,10 +5,10 @@ define([
 	"dijit/_WidgetsInTemplateMixin",
 	"ecm/widget/layout/_LaunchBarPane",
 	"dojo/dom-construct",
-	"./eDMSGrid",
+	"./demoGrid",
 	"ecm/model/Request",
 	"dojo/_base/lang",
-	"dojo/text!./templates/EDMSBrowseFeature.html",
+	"dojo/text!./templates/DemoBrowseFeature.html",
 	"dojo/domReady!"
 ],
 function(declare,_WidgetBase,_TemplatedMixin, _WidgetsInTemplateMixin,

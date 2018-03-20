@@ -9,15 +9,20 @@ define([
     "dojo/_base/lang",
     "dojo/dom-style",
     "dojo/dom-class",
+    'dojo/query',
+    'dojo/on',
     "./demoGridUtil",
     'dojo/text!../json/gridResponse.json',
     "dojo/text!./templates/demoGrid.html",
     "dojo/topic",
     "dojox/grid/enhanced/plugins/IndirectSelection",
     "dojox/grid/enhanced/plugins/DnD",
+    "dojox/grid/enhanced/plugins/Selector",
+    "dojox/grid/enhanced/plugins/Pagination",
+    "dojox/layout/ScrollPane",
     "dojo/domReady!",
     "dijit/layout/ContentPane"
-], function(declare, _WidgetBase, _TemplatedMixin,_WidgetsInTemplateMixin, EnhancedGrid,ItemFileWriteStore, domConstruct,lang,domStyle,domClass,eDMSGridUtil,gridResponse,Template, topic, IndirectSelection, dnd){
+], function(declare, _WidgetBase, _TemplatedMixin,_WidgetsInTemplateMixin, EnhancedGrid,ItemFileWriteStore, domConstruct,lang,domStyle,domClass,query, on, eDMSGridUtil,gridResponse,Template, topic, IndirectSelection, dnd, _Selector, Pagination,ScrollPane){
     return declare([ _WidgetBase, _TemplatedMixin,_WidgetsInTemplateMixin], {
 
         templateString: Template,
@@ -25,6 +30,8 @@ define([
         postCreate: function() {
             this.gridData = JSON.parse(gridResponse);
             this.loadGridData();
+            this._initScrollPane();
+
         },
 
         createItemStore : function(){
@@ -47,9 +54,20 @@ define([
             }
             return data;
         },
+        _initScrollPane: function(){
+            if(!this.scrollPane){
+                if(this.scrollEvt){
+                    this.scrollEvt.remove();
+                }
+                this.scrollPane = new ScrollPane({
+                    orientation: "vertical"
+                });
+                this.scrollEvt = this.scrollPane.on('scroll', lang.hitch(this, this._initScrollPane));
+            }
+        },
 
         loadGridData : function() {
-            var style = "height:500px;width:800px"
+            var style = "height:500px;width:auto";
             if(this.gridMenu){
                 domConstruct.empty(this.gridMenu);
             }
@@ -58,43 +76,53 @@ define([
                 var data= this.createItemStore();
                 var store = new ItemFileWriteStore({data:data});
                 /*create a new grid*/
-                var grid = new EnhancedGrid({
+                this.grid = new EnhancedGrid({
                     store: store,
                     structure: this.createGridColumns(),
+                    autoHeight:false,
+                    autoWidth:true,
+                    rowHeight:30,
+                    pageCount:10,
+                    //rowSelector: '20px',
                     //style:style,
                     className:"edmsGrid",
-                    autoHeight:true,
-                    autoWidth:true,
-                    rowSelector: '20px',
                     plugins: {
-                        indirectSelection: {headerSelector:true, width:"40px", styles:"text-align: center;"},
+                        indirectSelection: {headerSelector:true, width:"90px", styles:"text-align: center;"},
                         dnd:{
                             copyOnly: false,
                             dndConfig: {
-                                //row: {
-                                //    out: false, // This rule has lower priority, it'll be overwritten.
-                                //    within: false
-                                //},
-                                //// Both orders are correct.
-                                //out: {
-                                //    row: true, // This rule has higher priority, it'll be valid.
-                                //    cell: false
-                                //},
-                                // Set a whole group of situations
-                                within:true,
-                                in: true
+                                within:{
+                                    row:true,
+                                    cell:false
+                                },
+                                in: false,
+                                out: false
                             }
+                        },
+                        selector:{
+                            cell: false,
+                            col:false
+                        },
+                        pagination: {
+                            //pageSizes: ["10", "20", "30", "All"],
+                            description: true,
+                            sizeSwitch: false,
+                            pageStepper: true,
+                            /*page step to be displayed*/
+                            maxPageStep: 5,
+                            /*position of the pagination bar*/
+                            position: "bottom"
                         }
                     }
                 }, document.createElement('div'));
                 //domStyle.set(grid.domNode,"margin-top","100px");
-                //grid.domNode.style= style;
-                domConstruct.place(grid.domNode, this.gridMenu);
+                this.grid.domNode.style= style;
+                domConstruct.place(this.grid.domNode, this.gridMenu);
 
-                grid.startup();
+                this.grid.startup();
 
-                if(grid && grid.update){
-                    grid.update();
+                if(this.grid && this.grid.update){
+                    this.grid.update();
                 }
 
             }catch(e){
